@@ -8,16 +8,72 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Lesson:3 In this assignment FIVE key concepts learned in Lesson 3 are briefly summarized on a webpage, which uses a Bootstrap template.">
+    <meta name="author" content="Kana Ledbetter">
 
-    <title>INSERT YOUR NAME</title>
+    <title>Kana Ledbetter</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="css/one-page-wonder.css" rel="stylesheet">
+    
+        <!-- Web Font -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,800,900" rel="stylesheet">
+    
+    <style>
+    
+        .headline {
+    background-image: url("images/000_banner_image_b.gif");
+}
+
+.headline h2 {
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    font-size: 80px;
+    text-shadow: 2px 2px 4px #999;
+}
+
+#headline-h3{
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    text-shadow: 2px 2px 4px #999;
+}
+
+.featurette-heading {
+    font-size: 30px;
+}
+
+.text-muted {
+    color: #f44c28;
+}
+
+.items{
+    font-weight: bold;
+    color:#f44c28;
+    font-size: 20px;
+}
+
+.body{
+    font-size: 18px;
+    color: #666;
+}
+        
+
+.featurette-image.pull-right {
+    margin-bottom: 100px;
+}
+       
+.featurette-image.pull-left {
+    margin-bottom: 100px;
+}
+
+
+    </style>
 
 
 </head>
@@ -35,7 +91,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Web Application Development</a>
+                <a class="navbar-brand" href="#">LIS 2360 Spring Web Application Development</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -67,7 +123,7 @@
         <div class="headline">
             <div class="container">
                 <h2>Lesson 3 Highlights</h2>
-                <h3>INSERT YOUR NAME</h3>
+                <h3 id="headline-h3">Kana Ledbetter</h3>
             </div>
         </div>
     </header>
@@ -79,55 +135,149 @@
 
         <!-- First Featurette -->
         <div class="featurette" id="topic1">
-            <img class="featurette-image img-circle img-responsive pull-right" src="http://placehold.it/500x500">
+            <img class="featurette-image img-circle img-responsive pull-right" src="images/001_gource-git.jpg">
             <h2 class="featurette-heading">Highlight #1
-                <span class="text-muted">Topic 1 Header</span>
+                <span class="text-muted">Version Control and Version Control System(VCS)</span>
             </h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <p class="lead">Version Control is to manage updated files on computers among the same project team members. The files that are updated, edited, or revised by a team member / team members are saved in one main repository. Team members can pull out files to revise or edit and upload those updated files in there. Version control makes it easy to track updated histories and to recall old version files. Version control solves problems  on sharing files in a project such as unexpected overwriting or merged files that some team members edited the same files simultaneously. Version control is usually used for organizations, companies, and businesses where multiple people work on same projects on computers. </p>
+            
+            <p class="lead">Version Control System whose abbreviation is VCS  is a system to record files updated, revised, edited, and changed on computers for projects. Version Control System makes it possible to recall old version files, recover files, and/or compare updated files with old files. Team members can see who, when, what, why the files were changed, revised, edited, or merged in Version Control System.  Version Control System especially helps graphic designers or web designers to redesign, layout, and other design tasks because they always would like to work with the updated information to get jobs done. </p>
+            
+            <p class="lead">There are three different types of Version Control System.</p>
+            
+            <ul>
+                <li><span class="items">Local Version Control System:</span>
+                    <dl class="body">Local Version Control System is very common because it is very simple to use. The way is only to copy files into another directory. On the other hand, it is easy to make mistakes such as overwriting in accident or forgetting where the files were saved. 
+                </dl>
+                </li>
+                <li><span class="items">Centralized Version Control System:</span>
+                    <dl class="body">Centralized Version Control Systems whose abbreviation is CVCSs were developed. These systems have one server that manages every versioned file, and a number of clients that pull out files from that central version control system server. The positive aspect is as a single server saved all records, it is easy for every team member to find particular files. The negative aspect is once the main server is crush or get in trouble, all files would be lost or everybody cannot keep working.
+                    </dl>
+                </li>
+                <li><span class="items">Distributed Version Control System:</span>
+                    <dl class="body">Distributed Version Control Systems whose abbreviation is DVCSs has been become popular recently. Team members who are working on a same project under a Distributed Version Control System can pull out the updated files, full backup from the repository. Even if the main server is broken, someone can have the backup files including recorded histories.
+                    </dl>
+                </li>
+            </ul>
+            <p class="lead">In this lesson, the following benefits for Distributed Version Control System are mainly introduced:</p>
+            
+            <ul class="body">
+                <li>Avoiding overwriting the same files</li>
+                <li>Avoiding competing the same files that are working on simultaneously among other team members.</li>
+                <li>Managing and saving all the updated files in a mutual repository.</li>
+                <li>Allowing team members go back to older version files as needed.</li>
+                <li>Creating backup files.</li>
+            </ul>
+            
         </div>
 
         <hr class="featurette-divider">
 
         <!-- Second Featurette -->
         <div class="featurette" id="topic2">
-            <img class="featurette-image img-circle img-responsive pull-left" src="http://placehold.it/500x500">
+            <img class="featurette-image img-circle img-responsive pull-left" src="images/002_git_logo.gif">
             <h2 class="featurette-heading">Highlight #2
-                <span class="text-muted">Topic 2 Header</span>
+                <span class="text-muted">Git</span>
             </h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <p class="lead">Git is one of Distributed Version Control Systems and a free open source. Using this version control system brings developers great benefits as considering about speed, simple design, strong support for a lot of branches, completely distributed, and large capacities for both speed and data size. When Git is compared with older version control systems, it will amaze us how easy to use and how fast to access to the main repository server. We will recognize Git is very useful with big projects because of those qualities in addition to the branching system. Git is not only helpful for large projects but also small projects.
+</p>
+            
+            <p class="lead">The reason why Git has been becoming more popular recently is very strong on the following points:</p>
+            <ul class="body">
+                <li>All team members have a clone of the repository data saved on local remote (their own computers.)</li>
+                <li>Every work station is located in a local place.</li>
+                <li>Able to track all files, histories, graphics, images, date, and etc.</li>
+                <li>Amazingly high speed to process.</li>
+                <li>There is not necessary to worry about unexpected overwriting files about the sharing repository.
+</li>
+            </ul>
+ <br>           
+            <p class="lead">In addition to the above benefits, Git is easy to learn because of the simple design. Considering about all of the benefits, we understand why Git is one of the best Distributed Version Control Systems at present. To start to use Git, users need to create a local repository in the root of the project for the first thing. And then, users can track project files, upload, download, merge, and etc. on Git. </p>
+            
+            
         </div>
 
         <hr class="featurette-divider">
 
         <!-- Third Featurette -->
         <div class="featurette" id="topic3">
-            <img class="featurette-image img-circle img-responsive pull-right" src="http://placehold.it/500x500">
+            <img class="featurette-image img-circle img-responsive pull-right" src="images/004_remote.gif">
             <h2 class="featurette-heading">Highlight #3
-                <span class="text-muted">Topic 3 Header</span>
+                <span class="text-muted">Git Command - Basic Commands</span>
             </h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <p class="lead">Git Command is the communication tool to access the repository that users want to connect with. All actions such as download or upload files, tracking histories, and so on are controlled by using Git Command.</p>
+            
+            <p class="lead">Basic Commands are the followings:</p>
+            <ul class="body">
+                <li>$ git init</li>
+                <li>$ git add --all</li>
+                <li>$ git commit -am ‘initial commit’</li>
+                <li>$ git log</li>
+                <li>$ git status</li>
+            </ul>
+<br>           
+            <p class="lead">There are two methods to get Git repository. One of them is the method to add existed projects or directories into Git repository. And another is the method to make a clone of Git repository from a local repository.</p>
+            
+            <p class="lead">When an existed project is started to manage under Git, “git init” command is written on a local directory where the project is located. “Git init” command is to initialize as a first step for the new project management.</p>
+            
+            <p class="lead">In the case of a version management of the existed files under Git, the first step is  that the files to be managed should be added into the directory by “git add” command and then will be committed by “git commit” command.  </p>
+            
+            <p class="lead">Git makes almost all copies of data managed under the main server in Git. These copies are called “clone”. A clone of a repository is made by “git clone [url]” command.</p>
+            
+            <p class="lead">Git makes users know what status files are in by “git status” command. Users cannot only see if particular files are modified or not, but also which branch they are.</p>
+            
+            <p class="lead">User can see the past events after repeating committing or creating clones over and over by “git log” command. “Git log” command displays the commit record from the latest version to the older one unless users directed minus numbers at the default.</p>
         </div>
         
         <hr class="featurette-divider">
         
        <!-- Fourth Featurette -->
         <div class="featurette" id="topic4">
-            <img class="featurette-image img-circle img-responsive pull-left" src="http://placehold.it/500x500">
+            <img class="featurette-image img-circle img-responsive pull-left" src="images/004_gitflow.gif">
             <h2 class="featurette-heading">Highlight #4
-                <span class="text-muted">Topic 4 Header</span>
+                <span class="text-muted">Git Command - Remote Commands</span>
             </h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <p class="lead">“Remote repository” is the project that is located on the internet or on other networks. In Git, it is possible to hold multiple remote repositories and to use each remote repository for different purposes. To proceed sharing projects with other team members on Git, users have to manage each repository and pull out and push in files from a server as needed. To pull out files from the repository is called “pull” and to push in files is called “push”. </p>
+            
+            
+            <p class="lead">Basic Remote Commands are the followings:</p>
+            <ul class="body">
+                <li>$ git remote</li>
+                <li>$ git pull</li>
+                <li>$ git push</li>
+            </ul>
+<br>
+        
+            <p class="lead">“Git remote” command is the tool to know which remote server was set up in the past. The remote handle names set up in the past are displayed by “git remote” command.</p>
+            
+            <p class="lead">To get data from a remote repository to a local repository,  “git fetch” command is used. “Git fetch” command can make users get the data that they do not have, therefore users can check or merge it. However, “git fetch” command does not allow files to be overwritten in a local server environment or to be merged while working..</p>
+            
+            <p class="lead">“Git pull” command automatically performs a fetch and merges the data of the remote branch into the current branch.</p>
+            
+            <p class="lead">“Git push” command allows users to push files from their local server into their remote server. These files can be written only when nobody push the same server.</p>
         </div>
 
         <hr class="featurette-divider">
 
         <!-- Fifth Featurette -->
         <div class="featurette" id="topic5">
-            <img class="featurette-image img-circle img-responsive pull-right" src="http://placehold.it/500x500">
+            <img class="featurette-image img-circle img-responsive pull-right" src="images/005_github.gif">
             <h2 class="featurette-heading">Highlight #5
-                <span class="text-muted">Topic 5 Header</span>
+                <span class="text-muted">GitHub</span>
             </h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <p class="lead">GitHub is the largest Git repository hosting service in the world. Most of Git repositories are put in GitHub. In this lesson, how to create an user account of GitHub, the account setup and configuration are introduced. </p>
+            
+            <p class="lead">First, users need to create a user account. User accounts is for free. After accessing https//github.com, users only need to fill out username, email address, and password; and click “Sign up for GitHub” button. Then, an email from GitHub are sent. Users just follow the instruction in the email. Once they open their dashboard pages, they can use GitHub.</p>
+            
+            <p class="lead">To access Git repositories from the GitHub dashboards by using https:// protocol, the username and password are required. Or to access by using SSH remotes, a public key is required. Users can get the public key from “SSH keys” section under “account settings” link on their dashboards. 
+</p>
+            
+            <p class="lead">Next, users can switch their own avatar in their public profile page if users prefer. To open the page, click “Profile” on the top of the left side menu.
+ </p>
+            
+            <p class="lead">Then, users can set up their email addresses in Email page. To open the page, click “Emails” on the top of the left side menu. Multiple email address can be added if users would like.</p>
+            
+            <p class="lead">Lastly, users can set up Two-factor Authentication of “2FA” for more security. Both security setting can be chosen in the Security tabs of their user accounts. </p>
         </div>
 
         <hr class="featurette-divider">
@@ -136,7 +286,7 @@
         <footer>
             <div class="row">
                 <div class="col-lg-12">
-                    <p>Copyright &copy; 2018</p>
+                    <p>Copyright &copy; Kana Ledbetter LIS 2360 Spring 2018</p>
                 </div>
             </div>
         </footer>

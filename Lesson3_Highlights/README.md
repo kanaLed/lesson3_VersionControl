@@ -2,19 +2,22 @@
 
 
 ## Course Title:
-Web Application Development
+Web Application Development LIS2360 Spring
 
 ## Assignment Date:  
-(Month Day, Year)
+02, 03, 2018
 
 ## Student Name:  
-(First and Last Name)
+Kana Ledbetter
 
 ## Project Description:
-(In your own words, briefly describe the assignment.)
+Lesson:3 In this assignment FIVE key concepts learned in Lesson 3 are briefly summarized on a webpage, which uses a Bootstrap template.
+
+## View Project:
+ https://kanaled.github.io/lesson3_VersionControl/
 
 ## Lessons Learned in the Assignment:
-1. (Briefly describe a lesson/concept learned in this lesson.)
-2. (Briefly describe a lesson/concept learned in this lesson.)
-3. (Briefly describe a lesson/concept learned in this lesson.)
+1. Version Control and Version Control System are very effective data management open source system. 
+2. Git is the newest Distributed Version Contorol System and easy to use. 
+3. GitHub is the largest Git repository hosting serviece in the world. In this lesson, we learned how to create an user account and how to set up.
 
